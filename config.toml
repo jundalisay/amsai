@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://amsai.pages.dev/"
+baseURL = "https://25423949.amsai.pages.dev/"
 title = "AMSAI"
 theme = "educenter"
 # post pagination
