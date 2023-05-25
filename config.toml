@@ -166,7 +166,7 @@ hasChildren = true
   url = "research/"
   
 [[Languages.en.menu.main]]
-name = "blog"
+name = "news"
 url = "blog/"
 weight = 4
   
@@ -256,7 +256,7 @@ hasChildren = true
   url = "research/"
   
 [[Languages.fr.menu.main]]
-name = "blog"
+name = "news"
 url = "blog/"
 weight = 4
   

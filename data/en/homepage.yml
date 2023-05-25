@@ -1,11 +1,10 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "images/backgrounds/page-title.jpg"
   slider_item:
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Moral Education for the Global Generation"
+      content : "Our system strengthens the moral base of children so they can build  a sustainable future for themselves and others."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -14,9 +13,8 @@ slider:
         label : "Apply now"
         link : "contact/"
 
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Affordable English Education"
+      content : "We teach in English as an essential part of our global educational system, "
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -25,50 +23,40 @@ slider:
         label : "Apply now"
         link : "contact/"
 
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact/"
 
 
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "photos/kid.jpg"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
+    - name : "AMSAI Davao"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Km. 11 Cabantian, Davao City, Philippines"
 
     # feature item loop
-    - name : "Our Notice Board"
+    - name : "AMSAI Digos"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Amsai, Rizal Avenue, Digos City, 8002 Davao del Sur"
 
     # feature item loop
-    - name : "Our Achievements"
+    - name : "AMSAI Gensan"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Atis Extension, Barangay West, General Santos City, 9500 South Cotabato"
 
     # feature item loop
-    - name : "Admission Now"
+    - name : "AMSAI Nagcarlan"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Nagcarlan Laguna"
 
 
 ############################## about ##################################
 about:
   enable : true
   title : "About AMSAI"
-  image : "images/about/about-us.jpg"
-  content : "Ananda Marga Special Academic Institution (AMSAI)-Mindanao, which has campuses in Davao, Digos, and General Santos City in Mindanao, is an affiliation of Ananda Marga Board of Education. The headquarters of Ananda Marga Board of Education is located at Ananda Nagar in the Purulia District of West Bengal, India with a local headquarters at Ananda Marga Compound, Km. 6 Diversion Road, Buhangin, Davao City, Philippines. AMSAI is an international educational network of schools and institutes engaged in teaching, research, and service. It spans over fifty countries with over 1000 kindergarten, primary schools, secondary schools, colleges, and children’s homes that have been established over the past 50 years. It is based on the holistic philosophy of Neo-humanism which stands for “the practice of love for all creation including plants, animals and the inanimate world” as propounded by the Indian philosopher-seer Shrii Shrii Anandamurtijii. The education imparted in these schools and institutes schools and institutions is known as Neo-humanist Education (NHE). NHE is based on an ancient Indian system of teaching called Gurukul. The Sam’skrta (Sankrit) word ‘Gurukula’ (pronounced as gu-ru-kul) has the following etymology: Gu: darkness; ru: dispeller; kula: an institution. Gurukula is an institution that helps students dispel the darkness of the mind and leads to the total emancipation of the individual and society at large. In these schools and institutes, all aspects of one’s personality are developed utilizing an integrated curriculum that empowers the student to know oneself and develop the confidence and empathy to utilize knowledge for serving society. Intellectual cognitive abilities are extended to include the development of intuition, aesthetics, and a futuristic and ecological perspective based on a universal outlook, so that one day, they may feel that they are the members of one global human family."
+  image : "icons/amsai.png"
+  content : "AMSAI stands for Ananda Marga Special Academic Institution, an international educational network of schools and institutes engaged in teaching, research, and service. It spans over 50 countries with over 1,000 kindergarten, primary schools, secondary schools, colleges, and children’s homes that have been established over the past 50 years. It is based on the holistic philosophy of Neo-humanism which stands for “the practice of love for all creation including plants, animals and the inanimate world” as propounded by the Indian philosopher-seer Shrii Shrii Anandamurtijii." 
   button:
     enable : true
     label : "Learn more"
@@ -78,14 +66,14 @@ about:
 ############################# Course ################################
 course:
   enable : true
-  title : "Our Course"
+  title : "Our Courses"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  subtitle : "Click to Join our Monthly Workshop"
+  title : "How to Use Food as Medicine"
   button:
     enable : true
     label : "join now"
@@ -96,14 +84,9 @@ cta:
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-  # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  title : "Hear from our Graduates"
+  content : "Watch at what our graduates tell about AMSAI and how it shaped what they have grown up into."
+  video_link : "https://www.youtube.com/watch?v=y0FPB803oFI"
 
 
 ############################# event ################################
